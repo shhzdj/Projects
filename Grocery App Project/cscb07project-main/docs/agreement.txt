@@ -1,0 +1,5 @@
+Name of Group Members: William Chiu, Agha-Bala Gulmaliyev, Shahrokh Artaman, Shruti Panchal, and Shahzad Jalil
+Scrum Master: William Chiu
+Primary Method of Communication: Discord
+Scheduled time for Meetings: Everyday at 12PM EST (members can just message updates if they missed meeting)
+Version Control: GitHub

@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">B07ProjectApplication</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Login</string>
+    <string name="action_sign_in_short">Login</string>
+
+    <string name="welcome">"Welcome!"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="title_welcome">Welcome Back</string>
+    <string name="title_please">Please login to continue</string>
+    <string name="create_account">Create Account</string>
+    <string name="new_account_screen">New Account screen</string>
+
+    <string name="welcome_home">Welcome, </string>
+    <string name="select_button">Select a button to get started</string>
+    <string name="view_orders">View Orders</string>
+    <string name="products">Products</string>
+    <string name="my_profile">My Profile</string>
+
+    <string name="add_product">Add New Product</string>
+
+    <string name="stores">Stores</string>
+    <string name="cart_button">View Cart</string>
+
+</resources>

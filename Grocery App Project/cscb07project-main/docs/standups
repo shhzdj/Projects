@@ -1,0 +1,154 @@
+B07 Project Weekly Updates
+
+
+
+Meeting #1 (Nov 22):
+
+-Planned out all tasks and played planning poker
+-Added a repository 
+-Discussed each issue with team members
+
+
+Meeting #2 (Nov 23):
+
+William: Created an alternative login screen based off of Android Studio’s Login Activity.  Need to add functionality to the buttons on the login screen.
+Shahzad: Created a sign up screen for users and worked with firebase. 
+Shruti: No updates
+Shohruh: No updates
+Agha: No updates
+
+
+Meeting #3 (Nov 24):
+
+William: Debugged some code regarding the Create Account activity.  Created a homepage for store owners.  Plan to implement features to the buttons on the homepage.
+Shahzad: Finished the login and signup activities for the user and connected it to firebase, which allows a user to create an account or login to their existing account.  
+Shruti: No updates
+Shohruh:  No updates
+Agha:  No updates
+
+
+Meeting #4 (Nov 25):
+
+William: Created classes for Person, Customer, Store Owner, and Product. Added functionality to Create Account screen, where it creates a user and writes to a database.   
+Shahzad: Worked with Firebase database for users. Added a switch to the signup screen which makes certain features visible when an owner wants to create an account.
+Shruti: No updates
+Shohruh: No updates
+Agha: No updates
+
+
+Meeting #5 (Nov 26):
+
+William: No updates
+Shahzad: Created a UI for user logged in view and worked on how to read data from database so that each user can have their own unique profile (not complete).
+Shruti: Created store class and ViewStore activity and screen for viewing all the stores.
+Shohruh: No updates
+Agha: No updates
+
+
+Meeting #6 (Nov 27):
+
+William: Implemented the feature to differentiate between a customer and store owner upon account creation.  Added additional fields to the customer and store owner classes.  Plan to start working on adding products as a store owner.
+Shahzad: Added code to the loginActivity so that for each user it would read off the data from the database and forward the user to the customer or owner homepage. 
+Shruti: Added method which adds stores(buttons) according to the input provided in layout.
+Shohruh: No updates
+Agha: No updates
+
+
+Meeting #7 (Nov 28):
+
+William: No updates
+Shahzad: No update 
+Shruti: Added method to read and get all the owners that are on the database and set up all the stores and show it to the view store screen.
+Shohruh: No updates
+Agha: No updates
+
+
+Meeting #8 (Nov 29):
+
+William: Implemented the feature to read products from an array stored in Firebase and display them in a ListView for the user to see.  Plan to implement the feature of adding a product to the array and writing it to Firebase.  
+Shahzad: Worked on how to use RecyclerView to show all the products for each store. 
+Shruti: No updates
+Shohruh: No updates
+Agha: No updates
+
+
+Meeting #9 (Nov 30):
+
+William: Added real time reading for updating the list view.  Implemented feature to add a new product to the array and write to Firebase.  Plan on working on the orders tomorrow 
+Shahzad: Continued working on View stores and Products for customers.
+Shruti: No updates
+Shohruh: No updates
+Agha: No updates
+
+
+Meeting #10 (Dec 1):
+
+William: Bug fixed for Customer View Products/Stores.  Added class for orders, plan on working on orders tomorrow.
+Shahzad: Finished the ViewStore and ViewProducts for customers. Started working on “Add to Cart”.
+Shruti: Working on creating the UI for view orders for owners. Implemented back button functions
+Shohruh: No updates
+Agha: Created class for Cart and added quantity field to products.  Plan on working on cart and customer orders.
+
+
+Meeting #11 (Dec 2):
+
+William: Added class and layout for My Profile for owners.  Bug fixed login screen.  Plan on connecting view orders (owners) to Firebase once the UI is finished.
+Shahzad: Added a “View my Cart” button to the product view screen and OnClickListener for “Add to Cart” buttons, which stores each selected product in an ArrayList. Created a ViewProfile screen for customers.
+Shruti: Added view orders function.
+Shohruh: No updates
+Agha: Worked on Cart class and UI.
+
+
+Meeting #12 (Dec 3):
+
+William: No updates
+Shahzad: No updates
+Shruti: UI fixes
+Shohruh: No updates
+Agha: No updates
+
+
+Meeting #13 (Dec 4):
+
+William: No updates
+Shahzad: No updates
+Shruti: No updates
+Shohruh: No updates
+Agha: No updates
+
+
+Meeting #14 (Dec 5):
+
+William: No updates
+Shahzad: No updates
+Shruti: No updates
+Shohruh: No updates
+Agha: Worked on improving UI for View Cart.  Plan to add feature to save cart to order.
+
+
+Meeting #15 (Dec 6):
+
+William: Transitioned Login classes to MVP Format
+Shahzad: No updates
+Shruti: No updates
+Shohruh: No updates
+Agha: Added feature to create an order from the cart.  Plan to work on letting a owner mark order as complete.
+
+
+Meeting #16 (Dec 7):
+
+William: Worked on saving order to Firebase.  Added feature to read from Firebase and display orders for Customer and Owner.  Plan to remove unnecessary code before submission.   
+Shahzad: Wrote test cases for presenter.  Removed unnecessary buttons and classes.
+Shruti: Fixed issue where screen wouldn’t update when order was marked complete.
+Shohruh: No updates
+Agha: Bug fixed feature to save order to Firebase.  Removed unnecessary code.  Added order received button for customers.
+
+
+Meeting #17 (Dec 8):
+
+William: Removed commented code, added comments and indents to improve readability.
+Shahzad: No updates
+Shruti: No updates
+Shohruh: No updates
+Agha: No updates
+

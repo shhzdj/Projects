@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="top"
+    >
+
+    <TextView
+        android:id="@+id/textViewProducts"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:fontFamily="@font/roboto_bold"
+        android:gravity="center"
+        android:text="Viewing all products of "
+        android:textColor="#7C8387"
+        android:textSize="18sp" />
+
+    <ListView
+        android:id="@+id/productList"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/textViewProducts"
+        android:drawSelectorOnTop="false" />
+
+    <Button
+        android:id="@+id/btnAddNewProduct"
+        android:layout_width="fill_parent"
+        android:layout_height="65dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginHorizontal="12dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:fontFamily="@font/roboto_bold"
+        android:onClick="sentToNewProduct"
+        android:text="@string/add_product"
+        android:textSize="16sp" />
+
+</RelativeLayout>
